@@ -1,0 +1,200 @@
+/* Google Fonts - Roboto Family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #281646;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms_login {
+
+    border-radius: 3px;
+    background: #190E2C;
+    width: 360px;
+    padding: 30px 60px;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.forms_login h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.forms_login .input_field {
+    height: 48px;
+    width: 100%;
+    margin-top: 11px;
+}
+
+.input_field input {
+    height: 100%;
+    width: 100%;
+    background-color: #281646;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.822);
+    padding: 12px 10px 10px 55px;
+}
+
+.button_field button {
+    height: 48px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    background-color: #F82056;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.button_field button:hover {
+    color: rgba(236, 235, 235, 0.89);
+    background-color: #f82056a8;
+    transition: 0.2s ease-in-out;
+}
+
+.forms_link {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.forms_link a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #f82056a8;
+    margin-left: 5px;
+}
+
+.forms_link a:hover {
+    text-decoration: underline;
+}
+
+.forms_link span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #281646;
+}
+
+label i {
+    font-size: 15px;
+    color: #F82056;
+    padding: 15px;
+    border: 1px solid #F82056;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.title_container {
+
+    float: right;
+    margin-top: 7%;
+    margin-right: 24%;
+}
+.trocar {
+    margin-bottom: 30px;
+    text-align: center;
+    background: #190E2C;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.trocar a {
+    margin: 35px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 500;
+    transition: .3s;
+    
+}
+.trocar a:hover {
+    color: #F82056;
+}
+.title_container h1 {
+    color: #fff;
+    font-size: 45px;
+}
+
+#arrow label i {
+    padding: 0px;
+    position: inline-block;
+}
+
+#arrow label i:hover {
+    margin-right: 10px;
+}
+
+#arrow {
+    font-size: 15px;
+    color: #F82056;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.back {
+    margin-top: 35px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.back span {
+    color: #F82056;
+    margin-right: 10px;
+}
+
+.back a {
+    text-decoration: none;
+    color: #F82056;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.back a:hover {
+    text-decoration: underline;
+}
+.erro {
+    width: 360px;
+    margin-top: 15px;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(250,128,114,.3);
+    border: 1px solid rgb(165,42,42);
+}

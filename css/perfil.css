@@ -1,0 +1,138 @@
+/* IMPORTAÇÃO DE FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background: #281646;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 440px;
+    width: 550px;
+    border-radius: 10px;
+    padding: 20px;
+    background: #190E2C;
+}
+
+.container .profile-box h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #eeee;
+}
+
+.container .profile-box .tipo-user {
+    color: #c70535;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.profile-box {
+    text-align: center;
+}
+
+.profile-box .img img{
+    width: 115px;
+    height: 125px;
+    border-radius: 50%;
+    border: 2px solid #281646;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.profile-box .img {
+    margin: 20px 0 15px 0;
+}
+.profile-box .img img:hover {
+    opacity: 0.9;
+    border: 2px solid #c70535;
+}
+
+.profile-input input{
+    padding: 15px;
+    width: 90%;
+    background: #281646;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #eeee;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .2s;
+}
+.profile-input h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #eeee;
+    padding: 5px 0; 
+    border-bottom: 2px solid #281646;
+}
+
+.profile-box input:focus {
+    border: 1px solid #c70535;
+
+}
+.profile-input input::placeholder {
+    color: #eeeeee85;
+} 
+
+.comercio {
+    font-size: 14px;
+    color: #eeee;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 2px solid #281646;
+}
+input[type="file"] {
+    display: none;
+}
+    input[type="submit"]{
+    width: 90%;
+    height: 45px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    background: #F82056;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 16px;
+    }
+    span.back {
+        position: relative;
+        color: #F82056;
+        margin: 0px
+      }
+      a.back{
+        position: relative;
+        color: #F82056;
+        font-size: 19px;
+        margin: 0px;
+      }
+      a.back:hover{
+        position: relative;
+        color: #F82056;
+        font-size: 19px;
+        margin: 0px;
+        text-decoration: underline;
+      }
+      .back-cadastro {
+        text-align: left;
+      }
