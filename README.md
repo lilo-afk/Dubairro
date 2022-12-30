@@ -17,7 +17,10 @@ This project called Dubairro was the Course Completion Work carried out at ETEC 
 
 This project was developed with the following technologies:
 
-- HTML and CSS
-- JavaScript
-- PHP and PHPmyAdmin
-- MYSQL
+<table>
+<td>HTML and CSS</td>
+<td>JavaScript</td>
+<td>PHP</td>
+<td>PHPmyAdmin</td>
+<td>MYSQL</td>
+</table>
