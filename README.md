@@ -29,3 +29,5 @@ This project was developed with the following technologies:
 <td>PHPmyAdmin</td>
 <td>MYSQL</td>
 </table>
+
+made by Murilo and his team! 🙋
