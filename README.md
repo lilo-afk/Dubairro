@@ -30,4 +30,4 @@ This project was developed with the following technologies:
 <td>MYSQL</td>
 </table>
 
-made by Murilo and his team! 🙋
+Code by Murilo and his team! 🙋
