@@ -5,12 +5,13 @@ This project was developed as a final course work.
 </p>
 
 <p align="center">
+   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#-logo">Logo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-## Layout
+## 🖼️ Layout
 
 <img src="https://user-images.githubusercontent.com/80017589/210286709-7aaec7f8-4bf8-4aa2-9100-8ae2dfa1e426.png">
 
